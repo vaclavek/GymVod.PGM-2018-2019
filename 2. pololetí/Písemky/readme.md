@@ -1,0 +1,13 @@
+﻿1. Co je to algoritmus? Jaké jsou etapy algoritmizace?
+2. Jaké všechny znáte datové typy? (nejen jednoduché!)
+3. Co je rekurze a jaké znáte její typy?
+4. Co je vícerozměrné pole, jak se deklaruje, k čemu byste ho použili?
+5. Jak zapíšete text do souboru, a jak jej z něj načtete? (můžete uvést příklad kódu)
+6. Jak funguje quick sort? vysvětlete. Jakou má složitost v průměrném a nejhorším případě? Jaký problém je u něj třeba řešit?
+7. Převeďte číslo "C3" v šestnáctkové soustavě do dvojkové soustavy. Kolik bitů a bytů bude potřeba pro uložení tohoto čísla?
+8. Co je to knihovna (library), jaké znáte typy knihoven (jak se dělí)?
+9. Jaké jsou 3 základní pilíře OOP? Vysvětlete jejich princip
+10. Programujete WinForm aplikaci, kde chcete použít obrázek na pozadí. Jak zajistíte, aby byl obrázek distribuován s aplikací? Ne, jako soubor na disku "vedle".
+
+
+Zjistěte, kolik je prvočísel mezi 1 a 9 876 543.
