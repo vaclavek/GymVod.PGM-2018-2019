@@ -1,0 +1,84 @@
+﻿Hodnocení
+pro počet 98765 
+----
+1 = ti, komu to funguje, vrací správný výsledek, kód je přehledný
+2 = ti, komu to (ne)funguje, nevrací správný výsledek, drobné chyby
+3 = ti, komu to nefunguje, ale existují náznaky správného řešení
+4 = ti, kdo nemají zkompilovatelný kód, ani náznaky správného řešení
+5 = ti, kdo nic nemají
+----
+
+Bažant = 1
+- výsledek = 9480
+
+Halíř = 2-
+- výsledek blbě = 49383
+- řeší kontrolu prvočísel, ale blbě
+
+Holan = 3
+- výsledek blbě = nedoběhne
+- podivně zkopírovaný program.cs ??? 
+
+Houdek = 3
+- výsledek blbě:
+	1) jakmile má číslo alespoň 2 dělitele, je považované za prvočíslo
+	2) nuluje proměnou delitelu pokaždé po přičtení
+	
+Jachek = 3
+- výsledek blbě:
+	1) obrácená logika - pokud je něco dělitelné beze zbytku, pak je to prvočíslo
+
+Jechumtál = 3
+- výsledek blbě:
+	1) považuje za prvočísla vše, kdy libovolné menší číslo nedělí hlavní číslo
+	2) mezi 1 a 10 je prý 28 prvočísel :-)
+	
+Klíma = 1-
+- výsledek blbě:
+	1) Algoritmus vypadá docela v pohodě, ale za prvočíslo považuje takové číslo, které má více než dva dělitele :(
+	2) Blbě jen podmínka if count > 2, změněno na == a ok
+	
+Košler = 2-
+- výsledek blbě
+	1) Algoritmus vypadá celkem zmateně
+	2) smažil se použít odmocninu, aby algoritmus zrychlil, ale ...
+	3) pokud libovolný dělitel nedělí původní číslo, je považováno za prvočíslo
+	
+Kryška = 5
+- úplně prázdný adresář
+
+Martínek = 1*
+- výsledek 9480
+- hezké komentáře
+- drobné optimalizace
+- stopwatch
+- super!
+
+Novotný = 1
+- výsledek 9480
+- celkem přehledný kód
+
+Smrčka = 4
+- určoval počet dělitelů - zřejmě starý projekt
+
+Syrovátka = 1
+- výsledek 9480
+- celkem přehledný kód, minioptimalizace na sudá čísla
+
+Šimek = 3
+- nedořešeno, použita neexistující funkce IsPrime
+
+Vizelka = 1-
+- výsledek 9480
+- funkce "proverprvocislo" vrací long 0 / 1
+- práce v long
+
+Výšek = 3-
+- nezkomilovatelné a nedokončené
+- nějaký okopírovaný kód, který dělá něco jiného?
+- neuměl udělat funkci, "je prvočíslo" 
+
+Zykán 3
+- výsledek 581949645
+- nenuluje proměnnou, zda číslo je prvočíslo
+- kontroluje dělitelnost i pro čísla > X

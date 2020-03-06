@@ -1,0 +1,1 @@
+﻿Zjistěte, kolik je prvočísel mezi 1 a 9 876 543.
